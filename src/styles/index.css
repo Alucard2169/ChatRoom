@@ -7,3 +7,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html,
+body,
+#root
+{
+
+  width: 100dwh;
+  height: 100dvh;
+ 
+}
