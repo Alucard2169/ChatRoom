@@ -13,7 +13,7 @@ const ChatList = () => {
         </form>
 
         <ul className="flex flex-col gap-4">
-            <li className="flex w-full gap-2 hover:bg-gray-300 p-2 rounded-md">
+            <li className="flex w-full gap-2 hover:bg-gray-300 p-1 rounded-md">
                 <img src={userpfp} alt="user pfp" width={50} height={50} className="rounded-md"/>
                 <section className="flex justify-between w-full">
                     <article className="flex flex-col justify-between">
