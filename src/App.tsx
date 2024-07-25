@@ -6,12 +6,10 @@ function App() {
   return (
     <main className="p-2 bg-MAIN_BG h-full flex gap-1">
       <Navbar/>
-      <div className="w-[75%]">
-      <ChatContainer/>
-      </div>
-      <div className="w-[25%] grid grid-cols-1 grid-rows-2 gap-1">
-      <InfoContainer/>
-      <InfoContainer/>
+      <div className="grid grid-cols-3 w-full gap-1 grid-rows-2">
+        <div className="col-span-2 row-span-2"><ChatContainer/></div>
+        <InfoContainer/>
+        <InfoContainer/>
       </div>
     </main>
   )
