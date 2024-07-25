@@ -1,6 +1,6 @@
 const InfoContainer = () => {
     return ( 
-        <section className="bg-blue-200 rounded-md h-full">
+        <section className="bg-green-100 rounded-md h-full">
 
         </section>
      );
