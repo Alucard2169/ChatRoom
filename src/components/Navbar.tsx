@@ -8,8 +8,8 @@ import userIcon from '../assets/icons/userIcon.svg'
 const NavButtons = ({icon, text, style = null} : {icon: any, text: string,style: null | string}) => {
     return (
         <li className={`flex flex-col items-center text-center ${style} hover:bg-black p-2 rounded-md transition-all duration-100 ease-linear`}>
-            <img src={icon} alt={`${text} icon`} width={25} height={25}/>
-            <span className='text-xs text-gray-500 font-semibold'>{text}</span>
+            <img src={icon} alt={`${text} icon`} width={20} height={20}/>
+            <span className='text-xs text-gray-500 font-medium'>{text}</span>
         </li>
     )
 }
